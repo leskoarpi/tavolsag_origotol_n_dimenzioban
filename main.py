@@ -15,7 +15,7 @@ def tavolsag_n_d(*nums):
         index += 1
     finalresult = sqrt(sum(retkeslista))
 
-    print(finalresult)
+    return finalresult
 
 
-tavolsag_n_d(1,2,3,5,6,14)
+print(tavolsag_n_d(1,2,3,5,6,14))
