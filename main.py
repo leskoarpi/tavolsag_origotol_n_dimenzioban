@@ -1,7 +1,2 @@
-import math
-from math import sqrt
-
-def tavolsag_n_d(*nums):
-    return math.sqrt( sum( [ num ** 2 for num in nums] ))
-    
+tavolsag_n_d = lambda *z: (sum([x for x in z]))**(1/2)
 print(tavolsag_n_d(1,2,3,5,6,14))
